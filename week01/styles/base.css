@@ -54,7 +54,8 @@ h1 {
   gap: 1rem;
 }
 
-.card, .card2 {
+.card,
+.card2 {
   border: 1px solid lightgray;
   border-radius: 10px;
 }
@@ -80,7 +81,8 @@ figure img {
   flex-grow: 1;
 }
 
-.card h2, .card2 h2 {
+.card h2,
+.card2 h2 {
   background-color: darkslateblue;
   color: white;
   text-align: center;
@@ -124,6 +126,15 @@ hr {
 
 .card2 ul {
   margin: auto 0;
+}
+
+.card2 li {
+  margin: 0.75rem 0;
+}
+
+.card2 a {
+  display: inline-block;
+  padding: 0.5rem;
 }
 
 footer {
